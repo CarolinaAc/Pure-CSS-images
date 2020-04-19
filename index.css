@@ -1,9 +1,5 @@
-/*koala*/
+/*global variables and styles*/
 :root {
-  --bg-light: #a6becf;
-  --bg-dark: none;
-  --bg-accent: white;
-
   --sh-circle: 50%;
   --sh-triangle: polygon(50% 0%, 0% 100%, 100% 100%);
   --sh-round-rectangle: 50px;
@@ -12,14 +8,16 @@
 body {
   background-color: black;
 }
-/*pizza*/
-.pizza-container {
+.box {
   position: relative;
   height: 400px;
   width: 600px;
   display: block;
   margin: auto;
   margin-top: 6%;
+}
+/*pizza*/
+.pizza-container {
   background-color: #90323d;
 }
 .pizza {
@@ -42,26 +40,79 @@ body {
   left: 10%;
   z-index: 2;
 }
-.cheese-1 {
+.topping {
   position: absolute;
-  background-color: white;
-  border-radius: 50%;
+  border-radius: var(--sh-circle);
   width: 25%;
   height: 25%;
+}
+.cheese {
+  background-color: white;
+}
+.cheese-1 {
   top: 15%;
   left: 20%;
   z-index: 3;
 }
+.cheese-2 {
+  top: 30%;
+  right: 20%;
+  z-index: 3;
+}
+.cheese-3 {
+  bottom: 15%;
+  right: 20%;
+  z-index: 3;
+}
+.pep {
+  background-color: firebrick;
+}
+.pep-1 {
+  top: 25%;
+  left: 30%;
+  z-index: 4;
+}
+.pep-2 {
+  top: 20%;
+  right: 20%;
+  z-index: 4;
+}
+.pep-3 {
+  bottom: 20%;
+  left: 20%;
+  z-index: 4;
+}
+.pep-4 {
+  bottom: 20%;
+  right: 20%;
+  z-index: 4;
+}
+.cut {
+  position: absolute;
 
+  background-color: black;
+  z-index: 5;
+}
+.vertical {
+  width: 1px;
+  height: 100%;
+  left: 50%;
+}
+
+.horizontal {
+  height: 1px;
+  width: 100%;
+  top: 50%;
+}
+.diagonal {
+  transform: rotate(45deg);
+}
 /*koala*/
 .koala-container {
-  position: relative;
-  margin: auto;
-  display: block;
-  margin-top: 8%;
-  width: 600px;
-  height: 420px;
   background: #25a9fc;
+  --bg-light: #a6becf;
+  --bg-dark: none;
+  --bg-accent: white;
 }
 
 .head {

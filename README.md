@@ -29,7 +29,7 @@ In this project I will be including different images built with CSS in order to 
   - [ ] Clean code, use variables
   - [ ] Make it responsive
 - [ ] Pizza
-  - [ ] Build image from basic shapes
+  - [x] Build image from basic shapes
   - [ ] Clean code, use variables
   - [ ] Make it responsive
 - [ ] Diamond Logo
