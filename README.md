@@ -1,4 +1,5 @@
-#Pure CSS images:
+# Pure CSS images:
+
 In this project I will be including different images built with CSS in order to improve my CSS skills.
 ##Useful links:
 
