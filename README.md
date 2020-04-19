@@ -21,32 +21,40 @@ In this project I will be including different images built with CSS in order to 
 
 ## TODO list:
 
-- [] Responsive grid
-- [] Koala
+- [ ] Figure out wormholes
+  - [ ] Call @arfon
+  - [ ] Research ([docs](http://en.wikipedia.org/wiki/Wormhole#Time_travel))
+  - [ ] Build prototype #15
+  - [ ] Test run #43 @world-domination/time-travel
+- [ ] ...?
+- [ ] Profit!
+
+- [ ] Responsive grid
+- [ ] Koala
   - [x] Build image from basic shapes
-  - [] Clean code, use variables
-  - [] Make it responsive
-- [] Pizza
-  - [] Build image from basic shapes
-  - [] Clean code, use variables
-  - [] Make it responsive
-- [] Diamond Logo
-  - [] Build image from basic shapes
-  - [] Clean code, use variables
-  - [] Make it responsive
-- [] Nintendo Switch
-  - [] Build image from basic shapes
-  - [] Clean code, use variables
-  - [] Make it responsive
-- [] Duck
-  - [] Build image from basic shapes
-  - [] Clean code, use variables
-  - [] Make it responsive
-- [] Cat
-  - [] Build image from basic shapes
-  - [] Clean code, use variables
-  - [] Make it responsive
-- [] Person
-  - [] Build image from basic shapes
-  - [] Clean code, use variables
-  - [] Make it responsive
+  - [ ] Clean code, use variables
+  - [ ] Make it responsive
+- [ ] Pizza
+  - [ ] Build image from basic shapes
+  - [ ] Clean code, use variables
+  - [ ] Make it responsive
+- [ ] Diamond Logo
+  - [ ] Build image from basic shapes
+  - [ ] Clean code, use variables
+  - [ ] Make it responsive
+- [ ] Nintendo Switch
+  - [ ] Build image from basic shapes
+  - [ ] Clean code, use variables
+  - [ ] Make it responsive
+- [ ] Duck
+  - [ ] Build image from basic shapes
+  - [ ] Clean code, use variables
+  - [ ] Make it responsive
+- [ ] Cat
+  - [ ] Build image from basic shapes
+  - [ ] Clean code, use variables
+  - [ ] Make it responsive
+- [ ] Person
+  - [ ] Build image from basic shapes
+  - [ ] Clean code, use variables
+  - [ ] Make it responsive
