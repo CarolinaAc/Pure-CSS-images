@@ -2,6 +2,9 @@
 :root {
   --sh-circle: 50%;
   --sh-triangle: polygon(50% 0%, 0% 100%, 100% 100%);
+  --sh-inv-triangle: polygon(100% 0, 50% 100%, 0 0);
+  --sh-r-triangle: polygon(100% 0, 0 100%, 100% 100%);
+  --sh-l-triangle: polygon(0 0, 0% 100%, 100% 100%);
   --sh-round-rectangle: 50px;
 }
 
@@ -16,6 +19,79 @@ body {
   margin: auto;
   margin-top: 6%;
 }
+/*logo*/
+.logo-container {
+  background-color: var(--bg-middle-red-purple);
+  --bg-sunglow: #fdd231;
+  --bg-chrome-yellow: #fdad00;
+  --bg-peach: #feeeb7;
+  --bg-spanish-orange: #ea6c00;
+  --bg-middle-red-purple: #220e3e;
+}
+.large-bottom-triangle {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  bottom: 5%;
+  height: 55%;
+  background-color: var(--bg-spanish-orange);
+  clip-path: var(--sh-inv-triangle);
+  -webkit-clip-path: var(--sh-inv-triangle);
+}
+.medium-bottom-triangle {
+  position: absolute;
+  height: 100%;
+  width: 60%;
+  left: 20%;
+  top: 0;
+  background-color: var(--bg-chrome-yellow);
+  clip-path: var(--sh-inv-triangle);
+  -webkit-clip-path: var(--sh-inv-triangle);
+}
+.large-top-triangle {
+  position: absolute;
+  height: 30%;
+  width: 30%;
+  left: 35%;
+  top: 10.1%;
+  background-color: var(--bg-peach);
+  clip-path: var(--sh-triangle);
+  -webkit-clip-path: var(--sh-triangle);
+  z-index: 2;
+}
+
+.right-top-triangle-left {
+  position: absolute;
+  width: 10%;
+  height: 30%;
+  left: 25.1%;
+  top: 10.1%;
+  background-color: var(--bg-chrome-yellow);
+  clip-path: var(--sh-r-triangle);
+  -webkit-clip-path: var(--sh-r-triangle);
+  z-index: 2;
+}
+.right-top-triangle-right {
+  position: absolute;
+  width: 10%;
+  height: 30%;
+  right: 25.1%;
+  top: 10.1%;
+  background-color: var(--bg-chrome-yellow);
+  clip-path: var(--sh-l-triangle);
+  -webkit-clip-path: var(--sh-l-triangle);
+  z-index: 2;
+}
+.medium-top-rectangle {
+  position: absolute;
+  height: 30%;
+  width: 30%;
+  left: 35%;
+  top: 10.1%;
+  background-color: var(--bg-sunglow);
+  z-index: 1;
+}
+
 /*pizza*/
 .pizza-container {
   background-color: #90323d;
